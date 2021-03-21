@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0D7378;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: block;
+    background-color: #0D7378;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 81px;
+}
+
+header img{
+    height: 50%;
+    width: 35%;
+}
+
+div{
+    display: block;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.intro{
+    background-color: #0D7378;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+    padding-bottom: 15em;
+    color: #fff;
+}
+
+.intro img{
+    padding-bottom: 4%;
+}
+
+.insintro{
+    max-width: 60%;
+    margin: auto;
+}
+
+.insintro p{
+    line-height: 1.5em;
+    padding-top: 6%;
+    padding-bottom: 7%;
+}
+
+.insintro button{
+    border-radius: 15px;
+    padding: 1.3em 7em;
+    background-color: #0c9ca3;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border: solid;
+    border-color: #0ea7af;
+}
+
+.features {
+    background-color: #0D7378;
+    padding: 0 15em 6em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature{
+    flex: 1 1 50%;
+    padding: 0 7% 5em;
+    color: #fff 
+}
+
+.stay-productive{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #0D7378;
+    color: #fff;
+}
+
+.stay-productive p{
+    margin: 1.8em 0;
+}
+
+.productive-text{
+    margin: 0 0 0 70px;
+}
+
+
+.reviews{
+    background-color: #0D7378;
+    color: #fff;
+    padding: 12em 10% 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review{
+    flex: 0 0 31%;
+    background-color: hsl(219, 30%, 18%);
+    padding: 2.6em 2em;
+}
+
+.review p{
+    margin-bottom: 1.5em;
+}
+
+.review .profile{
+    display: flex;
+    align-items: center;
+}
+
+.review img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.review .profile .right{
+    margin-left: 9px;
+    font-size: .8em;
+}
+
+.subscribe{
+    background-color: #0D7378;
+}
+
+.sub{
+    max-width: 900px;
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+    padding: 3.5em 5%;
+    box-shadow: 8px 8px hsl(220deg 23% 5% / 14%);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: -10em;
+    color: white;
+}
+
+.sub p{
+    margin: 2em 4em;
+}
+
+form{
+    display: block;
+}
+
+.sub .email{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 1.2em 3em;
+    width: 60%;
+    margin-right: 2em;
+}
+
+.sub .submit{
+    padding: 1.2em 3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+footer{
+    background-color: #0D7378;
+    padding: 16em 0 7em;
+    width: 82%;
+    margin: auto;
+    color: white;
+    
+}
+
+footer h2 img{
+    height: 50%;
+    width: 35%;
+}
+
+.footer-menus{
+    display: flex;
+}
+
+.desc{
+    flex-basis: 31%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.desc img, .desc p{
+    display: block;
+}
+
+.desc img{
+    padding-top: 25px;
+}
+
+.desc p{
+    margin-left: 2em;
+}
+
+.contacts{
+    flex-basis: 31%;
+    padding-left: 5em;
+}
+
+.contacts .contact{
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.contact img{
+    margin-right: 2em;
+    height: 17px;
+    
+}
+
+.menu{
+    flex-basis: 13%;
+}
+
+.menu ul li{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+.social{
+    flex-basis: 150px;
+}
+
+.social i{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: .2em;
+}
+
+.social a{
+    color: inherit;
+    margin: 0.3em;
+    font-size: 1.3em;
+}
